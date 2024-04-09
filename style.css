@@ -357,7 +357,7 @@ align-items: center;
         height: 60px;
     }
     .iu h1{
-        font-size: 3.1rem;
+        font-size: 3rem;
     }
     #cse{
         font-size: 2rem;
@@ -378,10 +378,12 @@ align-items: center;
 @media (max-width: 650px){
     .iu{
         height: 2.1875rem;
-        width: 16.875rem;
+        /* width: 16.875rem; */
+        width: 19rem;
     }
     .iu h1{
-        font-size: 2.1rem;
+        font-size: 2rem;
+        right: -5px;
     }
     #cse{
         font-size: 1.5rem;
