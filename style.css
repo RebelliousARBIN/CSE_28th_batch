@@ -379,7 +379,7 @@ align-items: center;
 @media (max-width: 650px){
     .iu{
         height: 40px;
-        width: 292px;
+        width: 291px;
     }
     .iu h1{
         font-size: 2rem;
