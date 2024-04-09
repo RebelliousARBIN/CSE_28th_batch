@@ -141,22 +141,21 @@ body{
 .iu{
     color: white;
     position: relative;
-    height: 80px;
-    width: 585px;
-    margin-bottom: 10px;
+    height: 65px;
+    width: 581px;
+    /* margin-bottom: 20px; */
     justify-content: center;
 }
 .iu h1{
     position: absolute;
     font-size: 4rem;
     /* left: 140px; */
-    margin-top: 20px;
+    margin-left: 0px;
 }
 .iu h1:nth-child(1){
     color: transparent;
     -webkit-text-stroke: 2px rgb(3, 3, 110);
     z-index: 1;
-
 }
 
 .iu h1:nth-child(2){
@@ -358,7 +357,7 @@ align-items: center;
         height: 60px;
     }
     .iu h1{
-        font-size: 3rem;
+        font-size: 3.1rem;
     }
     #cse{
         font-size: 2rem;
@@ -378,11 +377,11 @@ align-items: center;
 
 @media (max-width: 650px){
     .iu{
-        height: 40px;
-        width: 291px;
+        height: 2.1875rem;
+        width: 16.875rem;
     }
     .iu h1{
-        font-size: 2rem;
+        font-size: 2.1rem;
     }
     #cse{
         font-size: 1.5rem;
@@ -439,4 +438,8 @@ align-items: center;
     .p .fa-solid{
         font-size: 12px;
     }
+    .iu h1:nth-child(1){
+        -webkit-text-stroke: 1px rgb(0, 0, 6);
+    }
+    
 }
