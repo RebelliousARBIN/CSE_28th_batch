@@ -143,15 +143,20 @@ body{
     color: white;
     position: relative;
     height: 65px;
-    width: 581px;
+    /* width: 581px; */
     /* margin-bottom: 20px; */
-    justify-content: center;
+    width: 100%;
 }
 .iu h1{
     position: absolute;
     font-size: 4rem;
-    /* left: 140px; */
+    left: 140px;
     margin-left: 0px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
 }
 .iu h1:nth-child(1){
     color: transparent;
@@ -399,11 +404,12 @@ align-items: center;
     .iu{
         height: 2.1875rem;
         /* width: 16.875rem; */
-        width: 19rem;
+        width: 100%;
     }
     .iu h1{
         font-size: 2rem;
-        left: 5px;
+        /* left: 5px; */
+        text-align: center;
     }
     #cse{
         font-size: 1.5rem;
