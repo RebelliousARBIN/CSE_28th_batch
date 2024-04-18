@@ -288,7 +288,8 @@ align-items: center;
 .details img{
     margin-top: 30px;
     width: 50px;
-    z-index: 3;
+    z-index: 5;
+    border-radius: 50%;
 }
 .p .fa-solid{
     font-size: 19px;
@@ -329,6 +330,15 @@ align-items: center;
 }
 .backtotop a{
     text-decoration: none;
+}
+
+.details img:hover{
+    transition: .2s;
+    box-shadow: 0 0 15px #ffffff;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    z-index: 5;
+    transform: translateY(-5px);
 }
 
 @media (max-width: 900px){
@@ -481,5 +491,5 @@ align-items: center;
 .backtotop:hover{
     background: linear-gradient(360deg, #1877F2, #010f2b);
     transition: .3s;
-    /* filter: drop-shadow(1px -5px 2px blue) invert(4%); */
+    box-shadow: 0 0 10px #a291e8;
 }
