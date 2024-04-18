@@ -316,7 +316,7 @@ align-items: center;
     width: 40px;
     height: 40px;
     border: 1px solid black;
-    background-color: red;
+    background: linear-gradient(0deg, #fa1313, #4b1403);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -477,4 +477,9 @@ align-items: center;
         bottom: 7px;
     }
     
+}
+.backtotop:hover{
+    background: linear-gradient(360deg, #1877F2, #010f2b);
+    transition: .3s;
+    /* filter: drop-shadow(1px -5px 2px blue) invert(4%); */
 }
